@@ -7,10 +7,7 @@ This is a full-stack weather dashboard built using **React** (frontend) and **No
 ## 🚀 Live Demo
 
 ### 🔗 Frontend (Vercel)
-👉 [View Frontend on Vercel](https://your-vercel-url.vercel.app)
-
-### 🔗 Backend (Render)
-👉 [View Backend on Render](https://your-render-url.onrender.com/weather?city=London)
+👉 [View Frontend on Vercel](https://weather-dash-vin6819s-projects.vercel.app/)
 
 ---
 
