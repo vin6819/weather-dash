@@ -30,7 +30,7 @@ const App = () => {
   };
 
   return (
-    <div style={{ width: '100vw', display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '-10%' }}>
+    <div style={{ width: '100vw', display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '0' }}>
       <h1>Weather App</h1>
       <SearchBar onSearch={handleSearch} />
       {loading && <p>Loading...</p>}
