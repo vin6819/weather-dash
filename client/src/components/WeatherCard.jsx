@@ -7,8 +7,9 @@ const WeatherCard = ({ data }) => {
   console.log(weatherInfo)
 
   return (
-    <div style={{ border: '1px solid #ccc', borderRadius: '10px', padding: '20px', width: '320px', margin: '0 auto', background: '#f0f8ff',boxShadow: '0 4px 8px rgba(0,0,0,0.1)', color: '#333'}}>
+    <div style={{ border: '1px solid #ccc', borderRadius: '10px', padding: '20px', width: '320px', margin: '0 auto', background: 'grey',boxShadow: '0 4px 8px rgba(0,0,0,0.1)', color: 'black', textAlign: 'center', fontWeight:'600'}}>
       <h2>{name}, {sys.country}</h2>
+      <img src={`https://openweathermap.org/img/wn/${weatherInfo.icon}@2x.png`} alt={weatherInfo.description} />
       <p><strong>Condition:</strong> {weatherInfo.main} ({weatherInfo.description})</p>
       <p><strong>Temperature:</strong> {main.temp}°C</p>
       <p><strong>Feels Like:</strong> {main.feels_like}°C</p>
